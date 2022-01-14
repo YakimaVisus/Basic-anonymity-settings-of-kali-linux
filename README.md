@@ -26,4 +26,4 @@ _Теперь направляем весь трафик через Tor, ком�
 _Чтобы сменить айпишник_
 > sudo kill -HUP $(pidof tor)  
 
-![Иллюстрация к проекту](https://github.com/YakimaVisus/Basic-anonymity-settings-of-kali-linux/blob/main/a32fe550831ca3ee5861fe3a76aef48e73056319.png)
+![Yakima Visus](https://github.com/YakimaVisus/Basic-anonymity-settings-of-kali-linux/blob/main/a32fe550831ca3ee5861fe3a76aef48e73056319.png)
