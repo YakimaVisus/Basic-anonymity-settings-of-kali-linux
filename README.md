@@ -14,15 +14,15 @@ wifi.cloned-mac-address=random
 ethernet.cloned-mac-address=random 
 
 # Добавим возможность пускать весь трафик системы через сеть Tor:
-> sudo apt-get install tor
-> sudo systemctl start tor
-> git clone https://github.com/ruped24/toriptables2
-> cd toriptables2/
-> sudo mv toriptables2.py /usr/local/bin/
+> sudo apt-get install tor  
+> sudo systemctl start tor  
+> git clone https://github.com/ruped24/toriptables2  
+> cd toriptables2/  
+> sudo mv toriptables2.py /usr/local/bin/  
 
 _Теперь направляем весь трафик через Tor, командой:_
-> sudo toriptables2.py -l
+> sudo toriptables2.py -l  
 Чтобы сменить айпишник
 > sudo kill -HUP $(pidof tor)  
 
-![Alt-текст](https://vk.com/photo-210083420_457239017 "Yakima")
+
